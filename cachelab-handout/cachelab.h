@@ -20,6 +20,7 @@
 #define INS_LOAD 1
 #define INS_STORE 2
 #define INS_MODIFY 3
+#define min(a,b) (a)<(b)?(a):(b)
 
 typedef struct trans_func{
   void (*func_ptr)(int M,int N,int[N][M],int[M][N]);
